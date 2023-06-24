@@ -9,9 +9,7 @@ export const AppMetadata = {
 		template: `%s | ${author}`
 	},
 	description: description,
-	icons: {
-		icon: "/favicon.png"
-	},
+	
 	creator: author,
 	authors: [{ name: author, url: url }],
 	colorScheme: "dark",
