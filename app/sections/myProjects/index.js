@@ -1,20 +1,24 @@
-
 import { LazyMotion, domAnimation } from "framer-motion";
 import { HeadingDivider, Project } from "components";
-
+import { PROJECTS } from "../../../constants";
 
 export function ProjectSection() {
-
-	return (
-		<LazyMotion features={domAnimation}>
-			<section id="about" className="section">
-				<HeadingDivider title="Projects" />
-				<div className="pt-10 pb-16 max-w-5xl flex flex-col gap-3">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                
-        </div></div>
-
-			</section>
-		</LazyMotion>
-	);
+  return (
+    <LazyMotion features={domAnimation}>
+      <section id="projects" className="section">
+        <HeadingDivider title="Projects" />
+		<div className="mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
+            {PROJECTS.map((project, index) => (
+              <Project
+                key={index}
+                name={project.name}
+                image={project.image}
+                link={project.link}
+                description={project.description}
+              />
+            ))}
+          </div>
+      </section>
+    </LazyMotion>
+  );
 }

@@ -8,7 +8,7 @@ export default function Page() {
 			<WelcomeSection />
 			<AboutSection />
 			<TechnologiesSection />
-			{/* <ProjectSection/> */}
+			<ProjectSection/>
 		</div>
 	);
 }
