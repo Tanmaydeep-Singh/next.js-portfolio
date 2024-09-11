@@ -3,7 +3,7 @@ export const PROJECTS = [
 	  name: "Storyloom", 
 	  image: "./images/storyloom.png", 
 	  link: "https://storyloom.in", 
-	  description: "A platform for reading and preserving folktales and stories in multiple languages, with a mission to connect people to global cultures and languages." 
+	  description: "A platform for reading and preserving folktales and stories in multiple languages, with a mission to connect people to global cultures." 
 	},
 	{ 
 	  name: "Lyrisync", 
