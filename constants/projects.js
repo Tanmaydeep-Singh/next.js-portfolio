@@ -5,6 +5,13 @@ export const PROJECTS = [
 	  link: "https://storyloom.in", 
 	  description: "A platform for reading and preserving folktales and stories in multiple languages, with a mission to connect people to global cultures." 
 	},
+	{
+		"name": "MindVault",
+		"image": "./images/MindVault.png",
+		"link": "https://quiz-app-frontend-beige.vercel.app/",
+		"description": "A dynamic quiz application designed to challenge users with engaging questions, track performance, and provide insightful analytics."
+	}
+,	
 	{ 
 	  name: "Lyrisync", 
 	  image: "./images/lyrisync.jpg", 
@@ -18,15 +25,3 @@ export const PROJECTS = [
 	  description: "A fun game project that recreates the classic Flappy Bird game, showcasing skills in game development and logic." 
 	},
   ];
-//   { 
-// 	name: "Community Engagement Platform", 
-// 	image: "path_to_community_image", 
-// 	link: "https://github.com/tanmaydeep-singh/community-platform", 
-// 	description: "A local community platform to improve engagement and address user issues found in platforms like Nextdoor." 
-//   },
-//   { 
-// 	name: "FastAPI Microservices", 
-// 	image: "path_to_microservices_image", 
-// 	link: "https://github.com/tanmaydeep-singh/fastapi-microservices", 
-// 	description: "A backend system built with FastAPI and MongoDB to manage microservices for Storyloom, including user and authentication services." 
-//   },
